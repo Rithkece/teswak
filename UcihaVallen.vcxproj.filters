@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Handler Files">
+      <UniqueIdentifier>{1856f0c4-85b5-4859-a141-b864ca29dd47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Action Files">
+      <UniqueIdentifier>{c86baef5-a6ed-400e-a97d-cbc8618d39ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog Files">
+      <UniqueIdentifier>{2c33431b-c9e4-4bbb-a27b-5ff32eff32e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{0ec9b50e-b3f4-4315-9a43-afbad66d5534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands">
+      <UniqueIdentifier>{1735b646-9ca0-4ba4-b4c4-72a497567c53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="enet\callbacks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\host.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\packet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\peer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\protocol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\unix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UcihaVallen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UcihaVallen\Handle\WorldInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="enet\include\callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\enet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\unix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="translate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UcihaVallen\Action\Action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UcihaVallen\Commands\Commands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UcihaVallen\Dialog\dialog_return.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UcihaVallen\Handle\BaseServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UcihaVallen\Handle\DialogReturn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UcihaVallen\Handle\DiscordBot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UcihaVallen\Handle\GuildInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UcihaVallen\Handle\ItemDefination.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UcihaVallen\Handle\License.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UcihaVallen\Handle\LoginHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UcihaVallen\Handle\PacketHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UcihaVallen\Handle\PlayerInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UcihaVallen\Handle\WorldInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UcihaVallen\Server\server_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icons.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
